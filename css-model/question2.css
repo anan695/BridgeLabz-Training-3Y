@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eeeeee;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* Flexbox centers boxes horizontally and vertically */
+.container {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    padding: 20px;
+    text-align: center;
+    min-height: 100px;
+    max-width: 300px;
+}
+
+/* Fixed pixel dimensions */
+.box1 {
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+}
+
+/* Viewport dimensions */
+.box2 {
+    width: 30vw;
+    height: 25vh;
+    background-color: lightgreen;
+}
+
+/* Percentage and em dimensions */
+.box3 {
+    width: 40%;
+    height: 10em;
+    background-color: lightcoral;
+    overflow: hidden;
+}
+
+/* Demonstrates overflow */
+.long-text {
+    width: 300px;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+}
